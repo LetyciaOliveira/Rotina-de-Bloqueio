@@ -1,0 +1,31 @@
+{
+  "name": "ms_rotina",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "ms_rotina/src/server",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server"
+  },
+  "dependencies": {
+    "@sentry/node": "^7.119.0",
+    "@sentry/tracing": "^7.114.0",
+    "amqplib": "^0.10.4",
+    "axios": "^0.27.2",
+    "datetime": "^0.0.3",
+    "dotenv": "^16.4.5",
+    "dotenv-config": "^0.1.1",
+    "luxon": "^3.5.0",
+    "mssql": "^11.0.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.1",
+    "picocolors": "^1.1.0",
+    "process-env": "^2.0.2",
+    "rabbit-install": "^0.0.6",
+    "set-interval-async": "^3.0.3",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
