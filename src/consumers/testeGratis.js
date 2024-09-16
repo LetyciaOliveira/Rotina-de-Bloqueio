@@ -52,7 +52,10 @@ export const bloqueioTesteGratis = async () => {
 
                 if (cnpjs.length > 0) {
                     console.log('Total de clientes alterados:', cnpjs.length);
-                    
+                
+                for (let i = 0; i < cnpjs.length; i++) {
+                    console.log("Cliente Alterado:", razao_social[i]);
+                }
                     //const message = JSON.stringify(rows);
                     // server.envioListaBloqueados(message);
 
