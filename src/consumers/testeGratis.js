@@ -68,7 +68,7 @@ export const bloqueioTesteGratis = async () => {
                 } catch (error) {
                     console.error(error)
                 }
-                }, 3600000)
+                }, 86400000)
 
                 return timer;
 };
